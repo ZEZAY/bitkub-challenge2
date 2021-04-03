@@ -5,8 +5,9 @@ from account import Account
 from transaction import Transaction
 
 # url = "https://api-ropsten.etherscan.io/api?module=account&action=tokentx&address=0x4e83362442b8d1bec281594cea3050c8eb01311c&startblock=0&endblock=999999999&sort=asc&apikey=KUSX5NPQHGKPT45Y6T5BBNPWPR3XZB6YIX"
-# x = requests.get(url)
-# print(x)
+# data = requests.get(url)
+# # x = requests.get(url).json()
+# print(data)
 
 
 def track_account(address):
